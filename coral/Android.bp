@@ -168,18 +168,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "CarrierLocation",
-	owner: "google",
-	apk: "proprietary/product/priv-app/CarrierLocation/CarrierLocation.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "CarrierServices",
 	owner: "google",
 	apk: "proprietary/product/priv-app/CarrierServices/CarrierServices.apk",
@@ -244,18 +232,6 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/product/priv-app/DMService/DMService.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "DeviceIntelligenceNetworkPrebuilt",
-	owner: "google",
-	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk",
-	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
